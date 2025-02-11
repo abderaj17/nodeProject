@@ -18,3 +18,21 @@ Communication from the client to the server (Company side).
 
 Client -> Browser -> API -> Server ->
       (React part)
+
+Form                   Req,     Server-r          data is stored
+Validation             Res      (Server data)      here
+
+
+Class1
+
+NodeJs
+Important Questions...
+
+Q-> Whats the use of package.json ?
+Ans-> It contains the technical specifications like version, authors, custom scripts, listing the packages 
+of the  project.
+
+Q-> Difference between package.lock.json and package.json?
+Ans-> package.lock contains the stable current versions of the packages that we have  used in our projects.
+
+Q->
