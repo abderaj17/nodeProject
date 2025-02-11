@@ -1,0 +1,20 @@
+Backend Systems--
+
+App/Website
+Movie Ticket
+Metro Booking, IRCTC
+
+Kind, Time, People?
+
+1) We can add the specific data
+2) Choose from options
+
+Backend
+1) To check,if seats are available
+2) Let the theater know
+3) Reciept
+
+Communication from the client to the server (Company side).
+
+Client -> Browser -> API -> Server ->
+      (React part)
