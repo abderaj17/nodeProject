@@ -78,3 +78,42 @@ api route
 app.post("/signup", (req, res)=>{
     const user = req.body;
 })
+
+
+Collections: these are groups of MONGODB documents or 
+groups of data we can use for one or more projects.
+
+
+Blinkit/ Instamart
+
+Quick Commerce
+
+user data -> name , phone number, address
+Store Data -> name, locations, inventory
+Delivery Parteners -> name, id, account
+Products -> name, decsription, images, prices, expiry date 
+
+
+MONGODB why?:
+- Rich Query Support (Mongoose)
+- Efficient
+- Automatic Sharding
+           -10000 users  (Vertical Scaling)
+           -10000 -> 20000 
+           - multiple servers
+           - horizontal Scaling (Increasing the number of servers)
+That is called Sharding.
+
+
+MONGODB
+
+1. install mongodb community server and mongodb compass.
+2. open compass and create a new connection string.
+3. open mongodb shell -> terminal for DataBase.
+
+Quering in the mongoShell--
+
+1. show dbs -> this lists all the databases present on your local system.
+2. use <db-name> -> this lists all the dbs present in your system
+                    on your system or if any db doesnt exist, it will create a new db with that name.
+3. 
